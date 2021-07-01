@@ -11,7 +11,6 @@ function App() {
             <Header />
             <Switch>
                 <Route exact path="/">
-                     <h1>Home Page</h1>
                     <Photos />
                 </Route>
                 <Route path="/cart">
