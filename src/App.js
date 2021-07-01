@@ -9,9 +9,9 @@ function App() {
     return (
         <div>
             <Header />
-              <h1>Home Page</h1>
             <Switch>
                 <Route exact path="/">
+                     <h1>Home Page</h1>
                     <Photos />
                 </Route>
                 <Route path="/cart">
