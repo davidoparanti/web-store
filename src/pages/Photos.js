@@ -10,7 +10,7 @@ function Photos() {
     const imageList = allPhotos.map((photo, index) => (
             <Image key={photo.id} img={photo} className={getClass(index)} />
         ))
-        
+
     return (
         <main className="photos">
             {imageList}
